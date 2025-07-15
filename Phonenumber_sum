@@ -1,0 +1,6 @@
+phone_number = input("What is your phone number? ")
+total = 0
+for digit in phone_number :
+     if digit != "-":
+        total = total + int(digit)
+print("The sum of your phone number is", total)

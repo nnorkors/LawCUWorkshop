@@ -1,0 +1,8 @@
+spending = []
+
+for i in range(7):
+    amount = float(input("Enter your spendings: "))
+    spending.append(amount)
+
+print("Average:", sum(spending) / 7)
+print("Maximum:", max(spending))

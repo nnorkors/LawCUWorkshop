@@ -1,0 +1,5 @@
+last_name = input("What is your last name? ")
+if len(last_name) > 15:
+ print ("Not SAT-compatible")
+else:
+ print ("SAT-compatible")

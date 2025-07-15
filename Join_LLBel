@@ -1,0 +1,8 @@
+Answer1 = input("Are you going to university? ")
+Answer2 = input("Do you have any university in mind? ")
+Answer3 = input("Are you interested in any field? ")
+if Answer1.lower() == "yes":
+ print ("You should apply to LLBel at Chula")
+else:
+ print ("Too bad!")
+ 

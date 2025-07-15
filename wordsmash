@@ -1,0 +1,8 @@
+word1 = input("What is your first word? ")
+word2 = input("What is your second word? ")
+if (word1.upper() == word1 and word2.upper() == word2) :
+ print ("Oops!")
+elif (word1.upper() == word1 or word2.upper() == word2) :
+ print (word1 + " " + word2)
+else :
+ print (word1 + word2)
